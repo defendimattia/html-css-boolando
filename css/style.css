@@ -9,6 +9,7 @@
     font-family: sans-serif;
 }
 
+
 /*****************/
 /**** GENERAL ****/
 /*****************/
@@ -28,6 +29,7 @@
 h3 {
     font-size: 15px;
 }
+
 
 /****************/
 /**** HEADER ****/
@@ -51,6 +53,7 @@ header {
     position: sticky;
     top: 0;
     color: #ffffff;
+    z-index: 1;
 }
 
 .logo {
@@ -128,6 +131,30 @@ main ul {
     top: 10px;
     right: 0;
 }
+
+.tag-50,
+.tag-30,
+.tag-sost {
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.tags {
+    position: absolute;
+    bottom: 100px;
+}
+
+.tag-50,
+.tag-30 {
+    background-color: #ff0000;
+}
+
+.tag-sost {
+    background-color: green;
+}
+
 
 /****************/
 /**** FOOTER ****/
