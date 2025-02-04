@@ -155,6 +155,26 @@ main ul {
     background-color: green;
 }
 
+/* immagini */
+
+.img1:hover {  
+    content: url("../img/1b.webp");
+}
+.img2:hover {  
+    content: url("../img/2b.webp");
+}
+.img3:hover {  
+    content: url("../img/3b.webp");
+}
+.img4:hover {  
+    content: url("../img/4b.webp");
+}
+.img5:hover {  
+    content: url("../img/5b.webp");
+}
+.img6:hover {  
+    content: url("../img/6b.webp");
+}
 
 /****************/
 /**** FOOTER ****/
