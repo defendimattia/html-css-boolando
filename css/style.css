@@ -17,6 +17,7 @@
     display: flex;
     max-width: 1380px;
     align-items: center;
+    margin: 0 auto;
 }
 
 .debugger {
@@ -45,10 +46,6 @@ header {
     box-shadow: 0 1px 4px 0 #000000;
     position: sticky;
     top: 0;
-}
-
-nav {
-    margin: 0 auto;
     color: #ffffff;
 }
 
@@ -67,4 +64,10 @@ nav {
 /****************/
 /**** FOOTER ****/
 /****************/
+
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin-bottom: 1px;
+}
 
