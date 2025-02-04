@@ -64,9 +64,17 @@ header {
 /***** MAIN *****/
 /****************/
 
+main .container {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .box-container {
     display: flex;
+    min-width: 445px;
+    flex-direction: column;
 }
+
 
 /****************/
 /**** FOOTER ****/
