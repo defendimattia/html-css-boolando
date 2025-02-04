@@ -13,9 +13,37 @@
 /**** GENERAL ****/
 /*****************/
 
+.container {
+    display: flex;
+    max-width: 1380px;
+}
+
+.debugger {
+    border: 1px solid red;
+    height: 50px;
+}
+
+img {
+    max-height: 30px;
+}
+
 /****************/
 /**** HEADER ****/
 /****************/
+
+header {
+    background-color: #ff6900;;
+}
+
+nav {
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.logo {
+    padding: 20px 0;
+    flex-grow: 3;
+}
 
 /****************/
 /***** MAIN *****/
